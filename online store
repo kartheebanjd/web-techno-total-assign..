@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ShopSmart - Online Store</title>
+</head>
+<body>
+
+  <h1>🛍 ShopSmart Online Store</h1>
+  <p>Great Deals. Fast Delivery. Trusted Quality.</p>
+
+  <h2>🏠 Welcome to ShopSmart</h2>
+  <p>
+    Welcome to <strong>ShopSmart</strong> – your one-stop destination for all things tech & lifestyle. 
+    Don’t miss our <b>🔥 Hot Deals</b> and <u>exclusive offers</u> available for a limited time only.
+  </p>
+  <p>Explore our latest Products, Place an Order, or enjoy our Gallery.</p>
+
+  <h2>🛒 Products</h2>
+  <table border="1">
+    <tr>
+      <th>Product</th>
+      <th>Price</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>🎧 Wireless Headphones</td>
+      <td><b>$49.99</b></td>
+      <td><b>20% OFF!</b> Noise-canceling, over-ear comfort.</td>
+    </tr>
+    <tr>
+      <td>⌚ Smart Watch</td>
+      <td>$99.00</td>
+      <td>Fitness tracking and notifications in style.</td>
+    </tr>
+    <tr>
+      <td>⚡ USB-C Charger</td>
+      <td>$15.00</td>
+      <td><i>Fast-charging</i> compatible with all major brands.</td>
+    </tr>
+  </table>
+
+  <h2>📦 Order Form</h2>
+  <form>
+    <label>Full Name:</label><br>
+    <input type="text" required><br><br>
+
+    <label>Email Address:</label><br>
+    <input type="email" required><br><br>
+
+    <label>Product Name:</label><br>
+    <input type="text" required><br><br>
+
+    <label>Quantity:</label><br>
+    <input type="number" min="1" required><br><br>
+
+    <label>Payment Method:</label><br>
+    <select>
+      <option value="card">Card</option>
+      <option value="cod">Cash on Delivery</option>
+      <option value="paypal">PayPal</option>
+    </select><br><br>
+
+    <label><input type="checkbox" required> I agree to the Store Policies.</label><br><br>
+
+    <input type="submit" value="Submit Order">
+  </form>
+
+  <h2>🎬 Product Gallery</h2>
+
+  <h3>🔊 Promotional Audio</h3>
+  <audio controls>
+    <source src="promo.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+
+  <h3>📹 Product Demo Video</h3>
+  <video width="320" height="240" controls poster="thumbnail.jpg">
+    <source src="product_demo.mp4" type="video/mp4">
+    Your browser does not support video.
+  </video>
+
+</body>
+</html>
